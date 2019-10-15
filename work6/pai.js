@@ -24,8 +24,6 @@ function pi(num){
     for(let i=0;i<=num;i++){
         let divdend = factorial(i)
         let divisor = oddFactorial(i)
-        console.log(divdend)
-        console.log(divisor)
         sum += (divdend/divisor)
         
 
