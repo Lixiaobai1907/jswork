@@ -23,7 +23,7 @@ function monkey(){
 }
 function stat(){
     let str = document.getElementById("str").value
-    let obj = str.split("")
+    let obj = str.split("").sort()
     //obj = str.split("")
     let num = obj.reduce(function (allnum,obj){
         if(obj in allnum){
